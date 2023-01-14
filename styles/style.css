@@ -77,7 +77,8 @@
 
 .working-features{
     display: flex;
-    margin: 50px auto;
+    padding: 50px auto;
+    margin: 100px auto;
     justify-content: center;
     align-content: center;
 }
@@ -86,6 +87,7 @@
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     margin-right: 50px;
+
 }
 .image-gallery img{
     margin: 5px;
@@ -110,5 +112,92 @@
 .loving-features{
     display: flex;
     margin: 50px auto;
+    padding-top: 50px;
     width: 1440px;
 }
+.loving-feature-details{
+    width: 50%;
+    margin-right: 80px;
+
+}
+.loving-feature-details h2 {
+    font-size: 45px;
+    font-weight: 700;
+    width: 60%;
+
+}
+.loving-feature-details p{
+
+}
+.single-feature{
+    width: 80%;
+    align-items: baseline;
+    margin-top: 35px;
+    padding: 30px 20px;
+    border-radius: 10px;
+    box-shadow: 0 3px 20px rgb(231, 230, 230);
+}
+.single-feature h4{
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+.single-feature p{
+    line-height: 25px;
+}
+
+/* some facts */
+
+.some-facts{
+    margin: 50px auto;
+    width: 90%;
+}
+
+.some-facts h2{
+    font-size: 45px;
+    font-weight: 700;
+}
+
+.fact{
+    width: 30%;
+}
+
+.achievements{
+    display: flex;
+    justify-content: space-around;
+    margin:100px 50px;
+    
+}
+
+.achivement-item {
+    border: 1px solid #FF900E;
+    border-radius: 8px;
+    padding:5px;
+    width: 242px;
+    height: 242px;
+    text-align: center;
+}
+.achivement-item  img{
+   margin-top: 20%;
+}
+
+/* support section */
+
+/* sponsor section */
+
+.sponsors-section{
+    text-align: center;
+    
+    
+}
+.sponsors-section p {
+
+  
+}
+
+
+
+
+
+
+
+
