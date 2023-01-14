@@ -30,3 +30,18 @@
     list-style: none;
     margin-left: 20px;
 }
+
+.brand-promotion{
+    text-align: center;
+}
+.explore-button{
+    width: 180px;
+    height: 64px;
+    background-color: #FF900E;
+    color: #fff;
+    border-radius: 8px;
+    border-style: none;
+    font-size: 18px;
+    font-weight: bold;
+       
+}
