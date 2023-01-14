@@ -10,7 +10,8 @@
 /* Header Section */
 
 .header-container{
-   background-color: rgba(255, 144, 14, 0.1);;
+   background-color: rgba(255, 144, 14, 0.1);
+   margin: 0 auto;
 }
 
 .header-item{
@@ -19,14 +20,16 @@
 }
 
 .header-nav{
+    width: 1440px;
+    margin: 0 auto;
     display: flex;
-    justify-content: space-between;
+    justify-content:space-between;
     text-align: center;
 }
 .header-nav h2{
     font-weight: 700;
     font-size: 45px;
-    line-height: 53px;
+    
 }
 .menu-item{
     display: flex;
@@ -34,7 +37,7 @@
 
 .menu-item li{
     list-style: none;
-    margin-left: 20px;
+    margin-left: 40px;
 }
 
 /* brand-promotion */
@@ -145,6 +148,29 @@
     line-height: 25px;
 }
 
+.overlay{
+    display: flex;
+
+    justify-content: center;
+    z-index: 1;
+    top:-200px
+}
+.overlay button{
+    background-color:#FF900E;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    padding:50px;
+}
+.overlay h2{
+    font-size: 65px;
+    font-weight: 700;
+}
+.overlay h4{
+    font-size: 25px;
+    font-weight: 500;
+}
+
 /* some facts */
 
 .some-facts{
@@ -190,10 +216,30 @@
     
 }
 .sponsors-section p {
+margin-top: 30px;
 
   
 }
 
+.sponsor-items {
+    margin-top: 50px;
+    display:flex;
+    justify-content: space-between;
+}
+.sponsor-items img{
+    filter: grayscale(100%);
+}
+
+
+footer{
+    background-color: #FFF4E7;
+    padding:30px;
+    text-align: center;
+    width: 90%;
+    align-items:center;
+    margin: 50px auto;
+    margin-bottom: 200px;
+}
 
 
 
