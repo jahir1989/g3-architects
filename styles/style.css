@@ -3,13 +3,19 @@
 *{
     font-family: 'Open Sans', sans-serif;
     font-family: 'Work Sans', sans-serif;
+    margin: 0;
+    padding: 0;
 }
+
+/* Header Section */
+
 .header-container{
-   
+   background-color: rgba(255, 144, 14, 0.1);;
 }
 
 .header-item{
-    width: 1440px;
+    padding-top: 50px;
+
 }
 
 .header-nav{
@@ -31,8 +37,19 @@
     margin-left: 20px;
 }
 
+/* brand-promotion */
+
 .brand-promotion{
     text-align: center;
+    margin: 50px auto;
+    width: 50%;
+}
+.brand-promotion h1{
+    font-size: 65px;
+    font-weight: 700;
+}
+.brand-promotion p{
+    margin-top: 20px;
 }
 .explore-button{
     width: 180px;
@@ -43,5 +60,55 @@
     border-style: none;
     font-size: 18px;
     font-weight: bold;
+    margin-top: 20px;
+    
        
+}
+.banner-image{
+    text-align: center;
+    margin: 0 auto;
+    width: 1440px;
+}
+.banner-image img {
+    padding-bottom: 50px;
+}
+
+/* Working Features */
+
+.working-features{
+    display: flex;
+    margin: 50px auto;
+    justify-content: center;
+    align-content: center;
+}
+
+.image-gallery{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin-right: 50px;
+}
+.image-gallery img{
+    margin: 5px;
+}
+
+.feature-details {
+    margin: auto 0;
+    align-items: center;
+    width: 30%;
+    vertical-align:baseline;
+}
+.feature-details .bold {
+    font-size: 25px;
+    font-weight: 600;
+}
+.feature-details .orange-font{
+    color: #FF900E;
+}
+
+/* loving-features-section */
+
+.loving-features{
+    display: flex;
+    margin: 50px auto;
+    width: 1440px;
 }
