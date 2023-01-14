@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Work+Sans&display=swap');
+ 
+*{
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Work Sans', sans-serif;
+}
+.header-container{
+   
+}
+
+.header-item{
+    width: 1440px;
+}
+
+.header-nav{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+.header-nav h2{
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 53px;
+}
+.menu-item{
+    display: flex;
+}
+
+.menu-item li{
+    list-style: none;
+    margin-left: 20px;
+}
