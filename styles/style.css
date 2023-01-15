@@ -177,6 +177,7 @@
 .some-facts{
     margin: 50px auto;
     width: 90%;
+    text-align: center;
 }
 
 .some-facts h2{
@@ -186,6 +187,9 @@
 
 .fact{
     width: 30%;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .achievements{
@@ -202,6 +206,7 @@
     width: 242px;
     height: 242px;
     text-align: center;
+    transition: all 0.5s ease-in-out;
 }
 
 .achivement-item:hover{
@@ -304,6 +309,10 @@ margin-top: 30px;
     align-items:center;
     margin: 50px auto;
     margin-bottom: 200px;
+}
+.footer-section h3{
+    font-size: 30px;
+
 }
  /* media query */
 
@@ -411,6 +420,7 @@ margin-top: 30px;
     text-align: center;
   
 }
+
 
 .footer-section p{
     padding: 30px;
