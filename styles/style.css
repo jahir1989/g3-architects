@@ -342,7 +342,12 @@ margin-top: 30px;
 .banner-image{
     display: none;
 }
+.image-gallery{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    margin-right: 5px;
 
+}
 
 .working-features{
     display: block;
