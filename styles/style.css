@@ -165,7 +165,7 @@
     font-size: 65px;
     font-weight: 700;
 }
-.overlay h4{
+.loving-feature-images h4{
     font-size: 25px;
     font-weight: 500;
 }
@@ -201,6 +201,12 @@
     height: 242px;
     text-align: center;
 }
+
+.achivement-item:hover{
+    border: 3px solid #f1dcc2;
+    box-shadow: 1px 1px 10px #FF900E; 
+}
+
 .achivement-item  img{
    margin-top: 20%;
 }
