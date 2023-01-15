@@ -334,6 +334,11 @@ margin-top: 30px;
     margin-top: 10px;
 }
 
+.brand-promotion h1{
+    font-size: 40px;
+    font-weight: 700;
+}
+
 .banner-image{
     display: none;
 }
