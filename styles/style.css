@@ -148,23 +148,19 @@
     line-height: 25px;
 }
 
-.overlay{
-    display: flex;
 
-    justify-content: center;
-    z-index: 1;
-    top:-200px
-}
-.overlay button{
+
+.loving-feature-images button{
     background-color:#FF900E;
     border: none;
     border-radius: 5px;
     color: #fff;
     padding:50px;
-}
-.overlay h2{
     font-size: 65px;
     font-weight: 700;
+}
+.overlay h2{
+
 }
 .overlay h4{
     font-size: 25px;
